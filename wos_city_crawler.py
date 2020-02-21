@@ -45,9 +45,6 @@ class WosCrawler:
 
         #get the details of each article
         for i in range(start_doc_final, end_doc + 1):
-            self.logger.log("Processing doc %s. Progress: %s out of %s"
-                            % (i, i - self.city_year.start_doc + 1, end_doc -
-                               self.city_year.start_doc + 1))
             print("Processing doc %s. Progress: %s out of %s"
                             % (i, i - self.city_year.start_doc + 1, end_doc -
                                self.city_year.start_doc + 1))
